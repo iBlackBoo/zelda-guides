@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="力量试炼：握住剑柄后持续扣血，坚持到扣完 13 颗心">
+  <defs>
+    <radialGradient id="trialbg" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#2d5a27"/>
+      <stop offset="1" stop-color="#102318"/>
+    </radialGradient>
+    <radialGradient id="trialglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#9fe6ff" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#9fe6ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="760" height="300" fill="url(#trialbg)"/>
+
+  <!-- 能量环 -->
+  <circle cx="380" cy="190" r="120" fill="none" stroke="#7fd4ff" stroke-width="2" opacity="0.5" stroke-dasharray="6 8"/>
+  <ellipse cx="380" cy="190" rx="150" ry="150" fill="url(#trialglow)"/>
+
+  <!-- 石台 + 剑 -->
+  <g transform="translate(380,190)">
+    <rect x="-38" y="42" width="76" height="60" rx="6" fill="#6b5a3c"/>
+    <rect x="-44" y="32" width="88" height="14" rx="4" fill="#86714a"/>
+    <rect x="-10" y="-70" width="10" height="110" rx="3" fill="#eaf7ff" stroke="#8fc7da"/>
+    <rect x="-18" y="32" width="28" height="9" rx="3" fill="#c8a24a"/>
+    <rect x="-5" y="40" width="8" height="14" fill="#8a6f3c"/>
+  </g>
+
+  <!-- 林克剪影（伸手拔剑） -->
+  <g transform="translate(300,210)" fill="#0c1a10" opacity="0.9">
+    <circle cx="0" cy="-30" r="12"/>
+    <path d="M-12 -16 C-14 6 -12 30 -8 44 L8 44 C12 28 14 6 12 -16 C8 -22 -8 -22 -12 -16 Z"/>
+    <path d="M10 -6 C26 -16 40 -28 46 -44" stroke="#0c1a10" stroke-width="9" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- 顶部 13 颗心：前 8 颗满（红），后 5 颗已流失（描边） -->
+  <g>
+    <g font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+      <path transform="translate(120,60) scale(0.42)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b"/>
+      <path transform="translate(160,60) scale(0.42)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b"/>
+      <path transform="translate(200,60) scale(0.42)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b"/>
+      <path transform="translate(240,60) scale(0.42)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b"/>
+      <path transform="translate(280,60) scale(0.42)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b"/>
+      <path transform="translate(320,60) scale(0.42)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b"/>
+      <path transform="translate(360,60) scale(0.42)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b"/>
+      <path transform="translate(400,60) scale(0.42)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b"/>
+      <path transform="translate(440,60) scale(0.42)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="none" stroke="#7fb89a" stroke-width="3"/>
+      <path transform="translate(480,60) scale(0.42)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="none" stroke="#7fb89a" stroke-width="3"/>
+      <path transform="translate(520,60) scale(0.42)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="none" stroke="#7fb89a" stroke-width="3"/>
+      <path transform="translate(560,60) scale(0.42)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="none" stroke="#7fb89a" stroke-width="3"/>
+      <path transform="translate(600,60) scale(0.42)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="none" stroke="#7fb89a" stroke-width="3"/>
+    </g>
+    <text x="380" y="100" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#bfe6d2">← 生命持续流失（剧情设定，不会真正死亡）</text>
+  </g>
+
+  <!-- 标题 -->
+  <text x="380" y="280" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="18" font-weight="700" fill="#f7f3e6">力量试炼 · Trial of Power</text>
+</svg>

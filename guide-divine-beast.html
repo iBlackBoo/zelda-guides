@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-zh="四神兽讨伐顺序建议（旷野之息） | 海拉尔攻略站" data-en="Divine Beast Order Guide (Breath of the Wild) | Hyrule Guides">四神兽讨伐顺序建议（旷野之息） | 海拉尔攻略站</title>
+  <meta name="description" data-zh="《塞尔达传说：旷野之息》四神兽（瓦鲁达尼亚/瓦梅德/瓦鲁凡/瓦纳波力斯）的名称、属性、位置、Boss、英杰能力与推荐讨伐顺序。" data-en="Breath of the Wild Divine Beast guide: Vah Ruta/Medoh/Rudania/Naboris names, elements, locations, bosses, Champion abilities and the best clear order.">
+  <!-- Google AdSense 脚本，审核后粘贴在此 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== 头部导航 ===== -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <svg class="triforce" viewBox="0 0 24 22" aria-hidden="true">
+          <polygon points="12,2 4,14 20,14" fill="#cbaa5a"/>
+          <polygon points="2,14 9,14 5.5,22" fill="#cbaa5a"/>
+          <polygon points="22,14 15,14 18.5,22" fill="#cbaa5a"/>
+        </svg>
+        海拉尔攻略站
+        <span class="sub">Hyrule Guides</span>
+      </a>
+      <button class="lang-toggle" id="langToggle" aria-label="切换语言">EN</button>
+      <button class="nav-toggle" aria-label="展开菜单" onclick="document.querySelector('.main-nav').classList.toggle('open')"><span class="zh">☰ 菜单</span><span class="en">☰ Menu</span></button>
+      <nav class="main-nav" aria-label="主导航">
+        <ul>
+          <li><a href="index.html"><span class="zh">首页</span><span class="en">Home</span></a></li>
+          <li><a href="guide-divine-beast.html" class="active"><span class="zh">攻略</span><span class="en">Guides</span></a></li>
+          <li><a href="resources.html"><span class="zh">资源</span><span class="en">Resources</span></a></li>
+          <li><a href="about.html"><span class="zh">关于</span><span class="en">About</span></a></li>
+          <li><a href="contact.html"><span class="zh">联系</span><span class="en">Contact</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <nav class="breadcrumb" aria-label="面包屑">
+      <a href="index.html"><span class="zh">首页</span><span class="en">Home</span></a> › <a href="index.html#guides"><span class="zh">攻略</span><span class="en">Guides</span></a> › <span class="zh">四神兽讨伐顺序建议</span><span class="en">Divine Beast Order Guide</span>
+    </nav>
+
+    <div class="layout">
+      <!-- ===== 正文 ===== -->
+      <article class="article">
+        <h1><span class="zh">四神兽讨伐顺序建议（旷野之息）</span><span class="en">Divine Beast Order Guide (Breath of the Wild)</span></h1>
+        <p class="meta"><span class="zh">分类：旷野之息 · 主线 Boss · 阅读约 7 分钟</span><span class="en">Category: Breath of the Wild · Main Boss · ~7 min read</span></p>
+
+        <img class="thumb" src="images/thumb-divine-beast.svg" alt="四神兽缩略图" loading="lazy">
+
+        <p><span class="zh">四神兽是《旷野之息》主线中期的关键目标。击败每一只都会<strong>削弱加侬 1/4 血量</strong>，并赋予你对应英杰的特殊能力。先打哪只，直接决定后续难度。下面是结合属性与机制的最佳顺序。</span><span class="en">The four Divine Beasts are the mid-game keystones. Each one you beat <strong>cuts Ganon's health by 1/4</strong> and grants a Champion's ability. Which to tackle first shapes your whole run — here's the optimal order.</span></p>
+
+        <h2><span class="zh">一、四神兽概览</span><span class="en">1. The Four Divine Beasts</span></h2>
+        <img class="guide-fig" src="images/guide-divine-beast-map.svg" alt="四神兽与海拉尔城堡位置地图" loading="lazy">
+        <ul>
+          <li><span class="zh">💧 <strong>水·瓦鲁达尼亚 (Vah Ruta)</strong> — 卓拉领地（东）— Boss：水咒加侬 — 英杰<strong>米法</strong>：康复（战斗中自动回血）。</span><span class="en">💧 <strong>Vah Ruta (Water)</strong> — Zora's Domain (East) — Waterblight Ganon — Mipha's <strong>Healing</strong> (auto-regen in battle).</span></li>
+          <li><span class="zh">🌪️ <strong>风·瓦梅德 (Vah Medoh)</strong> — 海布拉（西北）— Boss：风咒加侬 — 英杰<strong>力巴尔</strong>：英杰射（远程箭）。</span><span class="en">🌪️ <strong>Vah Medoh (Wind)</strong> — Hebra (Northwest) — Windblight Ganon — Revali's <strong>Revali's Gale</strong> (updraft).</span></li>
+          <li><span class="zh">🔥 <strong>火·瓦鲁凡 (Vah Rudania)</strong> — 死亡山脉（中东）— Boss：炎咒加侬 — 英杰<strong>达尔克尔</strong>：守护（自动盾防）。</span><span class="en">🔥 <strong>Vah Rudania (Fire)</strong> — Death Mountain (Central-East) — Fireblight Ganon — Daruk's <strong>Protection</strong> (auto-shield).</span></li>
+          <li><span class="zh">⚡ <strong>雷·瓦纳波力斯 (Vah Naboris)</strong> — 格鲁德（西南）— Boss：雷咒加侬 — 英杰<strong>乌尔波扎</strong>：雷击（范围雷电）。</span><span class="en">⚡ <strong>Vah Naboris (Thunder)</strong> — Gerudo (Southwest) — Thunderblight Ganon — Urbosa's <strong>Fury</strong> (lightning strike).</span></li>
+        </ul>
+
+        <h2><span class="zh">二、推荐讨伐顺序与理由</span><span class="en">2. Recommended Order & Why</span></h2>
+        <p><span class="zh"><strong>推荐：水 → 风 → 火 → 雷。</strong></span><span class="en"><strong>Recommended: Water → Wind → Fire → Thunder.</strong></span></p>
+        <ol class="steps">
+          <li><span class="zh"><strong>① 水神兽（最简单）：</strong>机制最直观，给<strong>米法的康复</strong>能力，战斗中自动回血，容错最高。</span><span class="en"><strong>① Water (easiest):</strong> most straightforward; Mipha's Healing auto-revives/regen makes it the most forgiving.</span></li>
+          <li><span class="zh"><strong>② 风神兽：</strong>给英杰射（上升气流），跑图与空中作战更灵活。</span><span class="en"><strong>② Wind:</strong> Revali's Gale updraft boosts traversal and aerial fights.</span></li>
+          <li><span class="zh"><strong>③ 火神兽：</strong>需提前准备耐热装备/防火药剂，机制偏解谜。</span><span class="en"><strong>③ Fire:</strong> needs heat-resist gear/elixirs; puzzle-heavy interior.</span></li>
+          <li><span class="zh"><strong>④ 雷神兽（最难，留最后）：</strong>雷咒加侬对近战极不友好，建议拿到前三个能力、装备成型后再挑战。</span><span class="en"><strong>④ Thunder (hardest, last):</strong> Thunderblight Ganon punishes melee — tackle it after the other three abilities and better gear.</span></li>
+        </ol>
+
+        <h2><span class="zh">三、每个神兽内部</span><span class="en">3. Inside Each Beast</span></h2>
+        <ul>
+          <li><span class="zh">进入后需解谜控制<strong>若干终端</strong>（通常 5 个），重启神兽系统。</span><span class="en">Inside, solve puzzles to activate <strong>several terminals</strong> (usually 5) and reboot the beast.</span></li>
+          <li><span class="zh">终端全亮后触发<strong>对应咒加侬 Boss 战</strong>，击败即获得英杰能力。</span><span class="en">All terminals lit triggers the <strong>blight boss fight</strong>; winning grants the Champion ability.</span></li>
+          <li><span class="zh">每只神兽内还藏有 <strong>1 座神庙</strong>（计入 120 神庙）。</span><span class="en">Each beast also hides <strong>1 shrine</strong> (counts toward the 120).</span></li>
+        </ul>
+
+        <h2><span class="zh">四、对最终战的帮助</span><span class="en">4. Help for the Final Fight</span></h2>
+        <ul>
+          <li><span class="zh">每击败一只，<strong>加侬血量上限降低 1/4</strong>，四只全清后最终战只剩 1/4 本体血。</span><span class="en">Each beast cuts <strong>Ganon's max HP by 1/4</strong>; all four leave only 1/4 for the finale.</span></li>
+          <li><span class="zh">四种英杰能力（康复/英杰射/守护/雷击）在城堡决战中可循环使用，大幅降低难度。</span><span class="en">The four Champion abilities (Heal / Gale / Protection / Fury) cycle in the finale and slash difficulty.</span></li>
+        </ul>
+
+        <!-- 内嵌联盟推荐：Switch Pro 手柄 -->
+        <div class="inline-affiliate">
+          <div class="ia-text">
+            <span class="zh"><strong>Boss 战手抖？</strong> <strong>Switch Pro 手柄</strong> 摇杆更精准，完美闪避与瞄准更稳。</span><span class="en"><strong>Shaky boss fights?</strong> A <strong>Switch Pro Controller</strong> gives steadier sticks for perfect dodges and aim.</span>
+          </div>
+          <!-- 联盟链接：Switch Pro 手柄 -->
+          <a href="#" class="btn btn-outline"><span class="zh">查看 Pro 手柄推荐 ↗</span><span class="en">View Pro Controller ↗</span></a>
+        </div>
+
+        <h2><span class="zh">五、小贴士</span><span class="en">5. Tips</span></h2>
+        <div class="tip">
+          <span class="zh"><strong>💡 实用建议：</strong></span><span class="en"><strong>💡 Practical tips:</strong></span>
+          <ul>
+            <li><span class="zh">进兽前做几份<strong>对应抗性药剂</strong>（火兽耐热、雷兽抗电）。</span><span class="en">Cook the <strong>matching resist elixirs</strong> beforehand (heat for fire, shock for thunder).</span></li>
+            <li><span class="zh">雷神兽战<strong>脱掉金属武器/装备</strong>，否则被雷劈会直接掉血。</span><span class="en">In the thunder beast, <strong>drop metal gear</strong> or lightning strips your health.</span></li>
+            <li><span class="zh">优先把<strong>米法康复</strong>拿到，后续所有 Boss 战都更轻松。</span><span class="en">Get <strong>Mipha's Healing</strong> early — it eases every later boss.</span></li>
+            <li><span class="zh">配合本站<strong>高清地图</strong>规划四兽与城堡的最优路线。</span><span class="en">Use our <strong>HD map</strong> to plan the optimal route between the four beasts and the castle.</span></li>
+          </ul>
+        </div>
+
+        <!-- 文章底部广告位 -->
+        <!-- AdSense 广告位 2 -->
+        <div class="ad-container" aria-label="广告位">
+          <span>
+            <span class="ad-label"><span class="zh">AdSense 广告位 2 · 文章底部</span><span class="en">AdSense Ad 2 · End of Article</span></span>
+            <span class="ad-note"><span class="zh">审核通过后在此粘贴广告单元代码</span><span class="en">Paste ad unit code here after approval</span></span>
+          </span>
+        </div>
+      </article>
+
+      <!-- ===== 侧边栏 ===== -->
+      <aside class="sidebar">
+        <div class="widget">
+          <h3><span class="zh">📖 相关攻略</span><span class="en">📖 Related Guides</span></h3>
+          <ul>
+            <li><a href="guide.html"><span class="zh">如何拔起大师之剑</span><span class="en">How to Pull the Master Sword</span></a></li>
+            <li><a href="guide-shrines.html"><span class="zh">120 座神庙速通路线</span><span class="en">120 Shrines Speedrun Route</span></a></li>
+            <li><a href="guide-cooking.html"><span class="zh">料理系统完全手册</span><span class="en">Complete Cooking Guide</span></a></li>
+            <li><a href="guide-korok.html"><span class="zh">900 个呀哈哈位置总览</span><span class="en">900 Korok Seeds Locations</span></a></li>
+            <li><a href="resources.html"><span class="zh">高清全要素地图 PDF</span><span class="en">HD Full-Map PDF</span></a></li>
+          </ul>
+        </div>
+
+        <div class="sponsor-box">
+          <h3><span class="zh">支持本站</span><span class="en">Support This Site</span></h3>
+          <p><span class="zh">觉得有用？请我喝杯咖啡 ☕</span><span class="en">Found this useful? Buy me a coffee ☕</span></p>
+          <!-- 收款码图片：微信 -->
+          <img class="qr" src="images/qr-wechat.jpg" alt="微信收款码">
+          <!-- 赞助按钮：Buy Me a Coffee -->
+          <a href="#" class="btn btn-coffee">☕ Buy Me a Coffee</a>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- ===== 页脚 ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-cols">
+        <div>
+          <h4><span class="zh">海拉尔攻略站</span><span class="en">Hyrule Guides</span></h4>
+          <p><span class="zh">由塞尔达爱好者维护的非官方攻略站，内容仅供学习交流。</span><span class="en">An unofficial fan site maintained by Zelda lovers, for learning and discussion.</span></p>
+        </div>
+        <div>
+          <h4><span class="zh">快速导航</span><span class="en">Quick Links</span></h4>
+          <ul>
+            <li><a href="index.html"><span class="zh">首页</span><span class="en">Home</span></a></li>
+            <li><a href="guide-divine-beast.html"><span class="zh">攻略</span><span class="en">Guides</span></a></li>
+            <li><a href="resources.html"><span class="zh">资源</span><span class="en">Resources</span></a></li>
+            <li><a href="about.html"><span class="zh">关于</span><span class="en">About</span></a></li>
+            <li><a href="contact.html"><span class="zh">联系</span><span class="en">Contact</span></a></li>
+          </ul>
+        </div>
+        <div>
+          <h4><span class="zh">法律</span><span class="en">Legal</span></h4>
+          <ul>
+            <li><a href="privacy.html"><span class="zh">隐私政策</span><span class="en">Privacy Policy</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year">2026</span> <span class="zh">海拉尔攻略站 (Hyrule Guides). 本站与任天堂公司无任何隶属关系。</span><span class="en">Hyrule Guides. This site is not affiliated with Nintendo Co., Ltd.</span></p>
+        <p class="ad-disclosure"><span class="zh">广告披露：本网站使用 Google AdSense 展示广告，广告内容由第三方提供。</span><span class="en">Ad disclosure: This website displays ads served by Google AdSense; ad content is provided by third parties.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

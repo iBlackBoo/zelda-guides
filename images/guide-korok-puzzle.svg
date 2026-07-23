@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="常见科洛格(呀哈哈)谜题类型">
+  <defs>
+    <style>
+      .bg{fill:#f7f3e6}
+      .title{fill:#2d5a27;font-family:'Noto Sans SC',system-ui,sans-serif;font-size:20px;font-weight:700}
+      .lab{fill:#3a3a32;font-family:'Noto Sans SC',system-ui,sans-serif;font-size:13px}
+      .tag{fill:#2d5a27;font-family:'Noto Sans SC',system-ui,sans-serif;font-size:12px;font-weight:700}
+      .card{fill:#efe8d4;stroke:#2d5a27;stroke-width:1.5}
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="800" height="360"/>
+  <text class="title" x="20" y="34">科洛格谜题五大常见类型</text>
+
+  <!-- 卡片网格 -->
+  <!-- 1 石圈 -->
+  <g transform="translate(40,70)">
+    <rect class="card" x="0" y="0" width="170" height="120" rx="8"/>
+    <circle cx="40" cy="40" r="10" fill="#2d5a27"/><circle cx="85" cy="30" r="10" fill="#2d5a27"/>
+    <circle cx="130" cy="55" r="10" fill="#2d5a27"/><circle cx="60" cy="85" r="10" fill="#2d5a27"/>
+    <circle cx="120" cy="92" r="10" fill="none" stroke="#2d5a27" stroke-dasharray="3,3"/>
+    <text class="lab" x="14" y="112">摆苹果/宝石成圈</text>
+    <text class="tag" x="14" y="-8">① 石圈</text>
+  </g>
+  <!-- 2 落叶/掀石 -->
+  <g transform="translate(230,70)">
+    <rect class="card" x="0" y="0" width="170" height="120" rx="8"/>
+    <ellipse cx="85" cy="50" rx="60" ry="34" fill="#d9cfa6"/>
+    <circle cx="85" cy="50" r="14" fill="#2d5a27"/>
+    <path d="M85,30 l0,-12 M85,70 l0,12 M65,50 l-12,0 M105,50 l12,0" stroke="#2d5a27" stroke-width="2"/>
+    <text class="lab" x="14" y="112">掀开花丛/石块</text>
+    <text class="tag" x="14" y="-8">② 落叶/举石</text>
+  </g>
+  <!-- 3 花朵连线 -->
+  <g transform="translate(420,70)">
+    <rect class="card" x="0" y="0" width="170" height="120" rx="8"/>
+    <circle cx="35" cy="95" r="8" fill="#c0392b"/><circle cx="85" cy="60" r="8" fill="#c0392b"/>
+    <circle cx="135" cy="30" r="8" fill="#c0392b"/>
+    <path d="M35,95 L85,60 L135,30" stroke="#2d5a27" stroke-width="2" stroke-dasharray="4,4"/>
+    <text class="lab" x="14" y="112">按顺序点燃花</text>
+    <text class="tag" x="14" y="-8">③ 花朵连线</text>
+  </g>
+  <!-- 4 对称树木 -->
+  <g transform="translate(610,70)">
+    <rect class="card" x="0" y="0" width="150" height="120" rx="8"/>
+    <path d="M40,100 l0,-30 l-12,-18 l24,0 l-12,18 Z" fill="#2d5a27"/>
+    <path d="M110,100 l0,-30 l12,-18 l-24,0 l12,18 Z" fill="#2d5a27"/>
+    <line x1="75" y1="100" x2="75" y2="40" stroke="#cbaa5a" stroke-width="2" stroke-dasharray="3,3"/>
+    <text class="lab" x="14" y="112">种树成对称</text>
+    <text class="tag" x="14" y="-8">④ 对称树木</text>
+  </g>
+  <!-- 5 放水 -->
+  <g transform="translate(230,215)">
+    <rect class="card" x="0" y="0" width="170" height="120" rx="8"/>
+    <rect x="20" y="30" width="130" height="60" rx="6" fill="#cfe3ea" stroke="#2d5a27" stroke-width="1.5"/>
+    <circle cx="85" cy="60" r="10" fill="#2d5a27"/>
+    <path d="M85,50 l0,-10 M85,70 l0,10 M75,60 l-10,0 M95,60 l10,0" stroke="#2d5a27" stroke-width="2"/>
+    <text class="lab" x="14" y="112">打开水阀注满</text>
+    <text class="tag" x="14" y="-8">⑤ 放水/通水</text>
+  </g>
+  <!-- 提示 -->
+  <text class="lab" x="430" y="245">识别技巧：用望远镜观察金色闪光、</text>
+  <text class="lab" x="430" y="265">或留意“呀哈哈”的叫声定位。</text>
+  <text class="lab" x="430" y="295" fill="#c0392b">收集 441 个即可满背包扩容。</text>
+</svg>

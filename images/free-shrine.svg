@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="神庙打卡清单：可打印的 120 座神庙勾选表（示例）">
+  <rect width="800" height="1000" fill="#f7f3e6"/>
+  <rect x="0" y="0" width="800" height="96" fill="#2d5a27"/>
+  <text x="400" y="44" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="28" font-weight="700" fill="#f7f3e6">神庙打卡清单</text>
+  <text x="400" y="74" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#cbb98a">Shrine Checklist · 共 120 座，可打印逐座勾选（示例）</text>
+
+  <g font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" fill="#2b2b28">
+    <!-- 左列 -->
+    <g transform="translate(40,160)">
+      <g transform="translate(0,0)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">高原 · Oman Au</text></g>
+      <g transform="translate(0,36)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">高原 · Ja Baij</text></g>
+      <g transform="translate(0,72)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">高原 · Keh Namut</text></g>
+      <g transform="translate(0,108)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">高原 · Owa Daim</text></g>
+      <g transform="translate(0,144)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">高原 · Rota Ooh</text></g>
+      <g transform="translate(0,180)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">高原 · Saas Ko'sah</text></g>
+      <g transform="translate(0,216)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">卡卡利科 · Dah Hesho</text></g>
+      <g transform="translate(0,252)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">卡卡利科 · Ree Dahee</text></g>
+      <g transform="translate(0,288)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">卡卡利科 · Kuh Takkar</text></g>
+      <g transform="translate(0,324)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">卡卡利科 · Hila Rao</text></g>
+      <g transform="translate(0,360)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">卡卡利科 · Ne'ez Yohma</text></g>
+      <g transform="translate(0,396)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">卡卡利科 · Jee Noh</text></g>
+      <g transform="translate(0,432)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">卡卡利科 · Kaya Wan</text></g>
+      <g transform="translate(0,468)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">哈特诺 · Kuhn Sidaj</text></g>
+      <g transform="translate(0,504)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">哈特诺 · Kam Urog</text></g>
+      <g transform="translate(0,540)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">哈特诺 · Rin Oyaa</text></g>
+      <g transform="translate(0,576)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">哈特诺 · Ya Naga</text></g>
+      <g transform="translate(0,612)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">哈特诺 · Daka Marak</text></g>
+      <g transform="translate(0,648)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">哈特诺 · Hickaly</text></g>
+      <g transform="translate(0,684)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">东内鲁德 · Soh Kofi</text></g>
+    </g>
+    <!-- 右列 -->
+    <g transform="translate(420,160)">
+      <g transform="translate(0,0)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">卓拉 · Toto Sah</text></g>
+      <g transform="translate(0,36)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">卓拉 · Ka'o Muu</text></g>
+      <g transform="translate(0,72)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">卓拉 · Daka Tuss</text></g>
+      <g transform="translate(0,108)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">卓拉 · Shai Utoh</text></g>
+      <g transform="translate(0,144)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">卓拉 · Qukah Nata</text></g>
+      <g transform="translate(0,180)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">拉聂尔 · Lakna Rokee</text></g>
+      <g transform="translate(0,216)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">拉聂尔 · Chizh Rala</text></g>
+      <g transform="translate(0,252)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">拉聂尔 · Pumaag Nitae</text></g>
+      <g transform="translate(0,288)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">拉聂尔 · Keeha Yoog</text></g>
+      <g transform="translate(0,324)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">拉聂尔 · Sasa Kai</text></g>
+      <g transform="translate(0,360)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">格鲁德 · Dila Maag</text></g>
+      <g transform="translate(0,396)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">格鲁德 · Kema Kosassa</text></g>
+      <g transform="translate(0,432)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">格鲁德 · Korsh O'hu</text></g>
+      <g transform="translate(0,468)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">格鲁德 · Xo Tah</text></g>
+      <g transform="translate(0,504)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">格鲁德 · Misae Suma</text></g>
+      <g transform="translate(0,540)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">海布拉 · Sha Warvo</text></g>
+      <g transform="translate(0,576)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">海布拉 · Hia Miu</text></g>
+      <g transform="translate(0,612)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">海布拉 · Goma Asaagh</text></g>
+      <g transform="translate(0,648)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">海布拉 · Rok Uwog</text></g>
+      <g transform="translate(0,684)"><rect width="16" height="16" rx="3" fill="#fff" stroke="#2d5a27" stroke-width="2"/><text x="26" y="13">海布拉 · To Quomo</text></g>
+    </g>
+  </g>
+  <text x="400" y="900" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#8a2a1a">※ 以上为示例，完整版含全部 120 座神庙名称，可打印后逐座勾选。</text>
+</svg>

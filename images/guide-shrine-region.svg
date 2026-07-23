@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="海拉尔神庙区域分布与探测器示意">
+  <defs>
+    <style>
+      .bg{fill:#f7f3e6}
+      .sea{fill:#cfe3ea}
+      .land{fill:#e8e0c8}
+      .land2{fill:#ded3b3}
+      .mt{fill:#bcae8c}
+      .edge{stroke:#2d5a27;stroke-width:1.5}
+      .title{fill:#2d5a27;font-family:'Noto Sans SC',system-ui,sans-serif;font-size:20px;font-weight:700}
+      .lab{fill:#3a3a32;font-family:'Noto Sans SC',system-ui,sans-serif;font-size:13px}
+      .tag{fill:#2d5a27;font-family:'Noto Sans SC',system-ui,sans-serif;font-size:12px;font-weight:700}
+      .det{fill:#cbaa5a}
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="800" height="360"/>
+  <!-- 海域 -->
+  <rect class="sea" x="0" y="0" width="800" height="360" opacity="0.55"/>
+  <!-- 大陆形状 -->
+  <path class="land edge" d="M120,70 Q300,40 520,60 Q700,80 690,200 Q700,320 480,310 Q260,340 150,280 Q70,210 120,70 Z"/>
+  <path class="land2 edge" d="M140,90 Q300,70 500,85 Q650,100 645,195 Q655,300 470,295 Q280,320 175,265 Q100,205 140,90 Z" opacity="0.6"/>
+  <!-- 山脉(死亡山脉 中部偏东) -->
+  <path class="mt edge" d="M560,150 l18,-26 l18,26 l16,-20 l16,20 l16,-22 l16,22 Z"/>
+  <text class="lab" x="560" y="142">死亡山脉</text>
+  <!-- 初始台地(左下) -->
+  <circle class="edge" cx="205" cy="250" r="26" fill="#e8e0c8"/>
+  <text class="lab" x="180" y="290">初始台地</text>
+  <!-- 区域标签 -->
+  <text class="tag" x="250" y="120">中部海拉尔平原</text>
+  <text class="tag" x="585" y="250">格鲁德沙漠</text>
+  <text class="tag" x="300" y="200">卓拉领地 (东)</text>
+  <text class="tag" x="250" y="60">海布拉 (西北)</text>
+
+  <!-- 神庙标记点 -->
+  <g fill="#2d5a27">
+    <circle cx="230" cy="240" r="4"/><circle cx="270" cy="210" r="4"/>
+    <circle cx="330" cy="180" r="4"/><circle cx="300" cy="150" r="4"/>
+    <circle cx="380" cy="200" r="4"/><circle cx="420" cy="160" r="4"/>
+    <circle cx="360" cy="250" r="4"/><circle cx="450" cy="230" r="4"/>
+    <circle cx="520" cy="200" r="4"/><circle cx="560" cy="240" r="4"/>
+    <circle cx="600" cy="180" r="4"/><circle cx="280" cy="100" r="4"/>
+    <circle cx="340" cy="110" r="4"/><circle cx="620" cy="290" r="4"/>
+  </g>
+
+  <!-- 探测器示意 -->
+  <g transform="translate(700,60)">
+    <circle r="22" fill="#efe8d4" stroke="#2d5a27" stroke-width="2"/>
+    <path d="M0,-12 L9,9 L-9,9 Z" class="det"/>
+    <text class="lab" x="-14" y="42">神庙探测器</text>
+    <g stroke="#cbaa5a" stroke-width="2" fill="none" opacity="0.8">
+      <path d="M0,0 m-30,0 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0"/>
+      <path d="M0,0 m-44,0 a44,44 0 1,0 88,0 a44,44 0 1,0 -88,0"/>
+    </g>
+  </g>
+
+  <text class="title" x="20" y="34">海拉尔神庙分布：按区域清图最高效</text>
+</svg>

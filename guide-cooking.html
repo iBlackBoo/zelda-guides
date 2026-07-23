@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-zh="料理系统完全手册（旷野之息） | 海拉尔攻略站" data-en="Complete Cooking Guide (Breath of the Wild) | Hyrule Guides">料理系统完全手册（旷野之息） | 海拉尔攻略站</title>
+  <meta name="description" data-zh="《塞尔达传说：旷野之息》烹饪机制全解：5 食材上限、buff 类型、同类叠加取最长、冲突失败料理、龙角 30 分钟与关键食材速查。" data-en="A full Breath of the Wild cooking breakdown: the 5-ingredient cap, buff types, same-type stacking, conflict failures, dragon-horn 30-min buffs and key ingredients.">
+  <!-- Google AdSense 脚本，审核后粘贴在此 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== 头部导航 ===== -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <svg class="triforce" viewBox="0 0 24 22" aria-hidden="true">
+          <polygon points="12,2 4,14 20,14" fill="#cbaa5a"/>
+          <polygon points="2,14 9,14 5.5,22" fill="#cbaa5a"/>
+          <polygon points="22,14 15,14 18.5,22" fill="#cbaa5a"/>
+        </svg>
+        海拉尔攻略站
+        <span class="sub">Hyrule Guides</span>
+      </a>
+      <button class="lang-toggle" id="langToggle" aria-label="切换语言">EN</button>
+      <button class="nav-toggle" aria-label="展开菜单" onclick="document.querySelector('.main-nav').classList.toggle('open')"><span class="zh">☰ 菜单</span><span class="en">☰ Menu</span></button>
+      <nav class="main-nav" aria-label="主导航">
+        <ul>
+          <li><a href="index.html"><span class="zh">首页</span><span class="en">Home</span></a></li>
+          <li><a href="guide-cooking.html" class="active"><span class="zh">攻略</span><span class="en">Guides</span></a></li>
+          <li><a href="resources.html"><span class="zh">资源</span><span class="en">Resources</span></a></li>
+          <li><a href="about.html"><span class="zh">关于</span><span class="en">About</span></a></li>
+          <li><a href="contact.html"><span class="zh">联系</span><span class="en">Contact</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <nav class="breadcrumb" aria-label="面包屑">
+      <a href="index.html"><span class="zh">首页</span><span class="en">Home</span></a> › <a href="index.html#guides"><span class="zh">攻略</span><span class="en">Guides</span></a> › <span class="zh">料理系统完全手册</span><span class="en">Complete Cooking Guide</span>
+    </nav>
+
+    <div class="layout">
+      <!-- ===== 正文 ===== -->
+      <article class="article">
+        <h1><span class="zh">料理系统完全手册（旷野之息）</span><span class="en">Complete Cooking Guide (Breath of the Wild)</span></h1>
+        <p class="meta"><span class="zh">分类：旷野之息 · 生存技巧 · 阅读约 6 分钟</span><span class="en">Category: Breath of the Wild · Survival · ~6 min read</span></p>
+
+        <img class="thumb" src="images/thumb-cooking.svg" alt="烹饪锅与食材缩略图" loading="lazy">
+
+        <p><span class="zh">料理是《旷野之息》里最性价比的"外挂"：一套正确的食材组合，能让你在雪山不掉血、在雷兽前免触电、打 Boss 时攻击翻倍。但机制有坑——下面把规则一次讲清。</span><span class="en">Cooking is the best "cheat" in Breath of the Wild: the right combo lets you survive snowstorms, dodge lightning, and double your damage. But the rules have traps — here's the full breakdown.</span></p>
+
+        <h2><span class="zh">一、基本规则</span><span class="en">1. Basic Rules</span></h2>
+        <ul>
+          <li><span class="zh">在<strong>烹饪锅（cooking pot）</strong>旁按 A，从背包选最多 <strong>5 种</strong>食材/材料开始烹饪。</span><span class="en">Stand by a <strong>cooking pot</strong>, press A, and pick up to <strong>5</strong> ingredients to cook.</span></li>
+          <li><span class="zh">纯食材 → 做出<strong>料理</strong>；加入<strong>怪物材料 + 昆虫/蜥蜴等动物 parts</strong> → 做出<strong>药剂（elixir）</strong>。</span><span class="en">All-food makes a <strong>meal</strong>; add <strong>monster parts + critters</strong> to make an <strong>elixir</strong>.</span></li>
+          <li><span class="zh">所有产出都会带<strong>心心（恢复）</strong>或<strong>黄色临时心（上限外）</strong>。</span><span class="en">Every result grants <strong>hearts</strong> or <strong>temp yellow hearts</strong> (above max).</span></li>
+        </ul>
+
+        <h2><span class="zh">二、效果（buff）机制</span><span class="en">2. Buff Mechanics</span></h2>
+        <ol class="steps">
+          <li><span class="zh"><strong>效果类型：</strong>攻击、防御、速度、潜行、耐寒、防暑、抗电、精力恢复等，由<strong>主导食材</strong>决定。</span><span class="en"><strong>Buff types:</strong> attack, defense, speed, stealth, cold/resist, heat/resist, shock/resist, stamina — set by the <strong>dominant ingredient</strong>.</span></li>
+          <li><span class="zh"><strong>同类叠加取"最长时长"：</strong>放多种同类 buff 食材，时长按最高者算，<strong>强度不会相加</strong>。</span><span class="en"><strong>Same-type stacks duration:</strong> multiple same-type ingredients take the longest time; <strong>potency does not add up</strong>.</span></li>
+          <li><span class="zh"><strong>混搭不同类型会失败：</strong>同时放攻击+防御等不同 buff，会做成<strong>失败料理（无加成）</strong>。</span><span class="en"><strong>Mixing types fails:</strong> attack + defense together yields a <strong>failed dish (no buff)</strong>.</span></li>
+          <li><span class="zh"><strong>龙 parts 拉满时长：</strong>龙角 30 分钟、龙爪 10 分钟，是拉长效 buff 的关键。</span><span class="en"><strong>Dragon parts max it out:</strong> Dragon Horn = 30 min, Dragon Claw = 10 min buffs.</span></li>
+        </ol>
+
+        <img class="guide-fig" src="images/guide-cooking-effects.svg" alt="料理效果类型与食材组合示意" loading="lazy">
+
+        <h2><span class="zh">三、关键食材速查</span><span class="en">3. Key Ingredients Cheat Sheet</span></h2>
+        <ul>
+          <li><span class="zh">💗 <strong>大量回血：</strong>生命榴莲、生命萝卜、海拉尔鲈鱼、大生命草。</span><span class="en">💗 <strong>Big heals:</strong> Hearty Durian, Hearty Radish, Hyrule Bass, Big Hearty Truffle.</span></li>
+          <li><span class="zh">⚔️ <strong>攻击：</strong>大剑鲤鱼、猛兽材料（如莫力布林角）。</span><span class="en">⚔️ <strong>Attack:</strong> Mighty Carp, mighty-thistle / monster parts.</span></li>
+          <li><span class="zh">🛡️ <strong>防御：</strong>铠甲鲤鱼、坚甲材料。</span><span class="en">🛡️ <strong>Defense:</strong> Armored Carp, armored / ironshroom.</span></li>
+          <li><span class="zh">❄️ <strong>耐寒：</strong>暖暖草、辣椒；🔥 <strong>防暑：</strong>冰凉草、薄荷。</span><span class="en">❄️ <strong>Cold:</strong> Sunshroom, Spicy Pepper; 🔥 <strong>Heat:</strong> Cool Safflina, Mint.</span></li>
+          <li><span class="zh">⚡ <strong>抗电：</strong>电果（Voltfruit）/ 电蓟（Electric Safflina）（雷暴与雷神兽必备）。</span><span class="en">⚡ <strong>Shock resist:</strong> Voltfruit / Electric Safflina (key for thunderstorms & the thunder beast).</span></li>
+          <li><span class="zh">🔋 <strong>精力：</strong>精力鲈鱼、耐力蘑菇，配合龙角做长效力药。</span><span class="en">🔋 <strong>Stamina:</strong> Endura Carrot / Endura Shroom, paired with a dragon horn for long-lasting stamina.</span></li>
+        </ul>
+
+        <h2><span class="zh">四、实用配方示例（至少 4 个）</span><span class="en">4. Example Recipes (4+)</span></h2>
+        <ul>
+          <li><span class="zh"><strong>攻击+ 长时效：</strong>大剑鲤鱼 ×5 → 攻击加成，时长取最高。</span><span class="en"><strong>Attack up:</strong> 5× Mighty Carp → attack buff, longest duration.</span></li>
+          <li><span class="zh"><strong>30 分钟任意 buff：</strong>任意 buff 食材 + 1 个龙角 → 该 buff 持续 30 分钟。</span><span class="en"><strong>30-min buff:</strong> any buff ingredient + 1 Dragon Horn → that buff for 30 minutes.</span></li>
+          <li><span class="zh"><strong>满血回复：</strong>生命榴莲 ×N → 直接补满并超出上限的临时心。</span><span class="en"><strong>Full heal:</strong> Hearty Durian ×N → fills and overfills your hearts.</span></li>
+          <li><span class="zh"><strong>耐寒药剂：</strong>暖暖草 + 怪物材料 → 抗寒 elixir，雪山探险刚需。</span><span class="en"><strong>Cold elixir:</strong> Sunshroom + monster part → cold-resist elixir for snow.</span></li>
+        </ul>
+
+        <!-- 内嵌联盟推荐：官方攻略书 -->
+        <div class="inline-affiliate">
+          <div class="ia-text">
+            <span class="zh"><strong>想系统背食材？</strong> 推荐 <strong>官方精装攻略书</strong>，纸质食材索引与地图一目了然。</span><span class="en"><strong>Want a paper index?</strong> The <strong>Official Guide Book</strong> has a printed ingredient index and maps.</span>
+          </div>
+          <!-- 联盟链接：官方攻略书 -->
+          <a href="#" class="btn btn-outline"><span class="zh">查看攻略书 ↗</span><span class="en">View Guide Book ↗</span></a>
+        </div>
+
+        <h2><span class="zh">五、小贴士</span><span class="en">5. Tips</span></h2>
+        <div class="tip">
+          <span class="zh"><strong>💡 实用建议：</strong></span><span class="en"><strong>💡 Practical tips:</strong></span>
+          <ul>
+            <li><span class="zh">要长时效就靠<strong>龙角</strong>，不要指望堆食材提强度。</span><span class="en">For long duration, rely on <strong>dragon horns</strong> — stacking won't raise potency.</span></li>
+            <li><span class="zh">失败料理别丢，可以<strong>喂马</strong>或当普通食物吃。</span><span class="en">Don't trash failed dishes — <strong>feed them to your horse</strong> or eat them.</span></li>
+            <li><span class="zh">火属性/冰属性武器可<strong>配合 buff</strong>，但 buff 与武器元素独立计算。</span><span class="en">Elemental weapons <strong>stack with buffs</strong>, but they're calculated separately.</span></li>
+            <li><span class="zh">进四神兽前务必做几份<strong>对应抗性药剂</strong>，能大幅降低难度。</span><span class="en">Before a Divine Beast, cook the <strong>matching resist elixirs</strong> — it slashes the difficulty.</span></li>
+          </ul>
+        </div>
+
+        <!-- 文章底部广告位 -->
+        <!-- AdSense 广告位 2 -->
+        <div class="ad-container" aria-label="广告位">
+          <span>
+            <span class="ad-label"><span class="zh">AdSense 广告位 2 · 文章底部</span><span class="en">AdSense Ad 2 · End of Article</span></span>
+            <span class="ad-note"><span class="zh">审核通过后在此粘贴广告单元代码</span><span class="en">Paste ad unit code here after approval</span></span>
+          </span>
+        </div>
+      </article>
+
+      <!-- ===== 侧边栏 ===== -->
+      <aside class="sidebar">
+        <div class="widget">
+          <h3><span class="zh">📖 相关攻略</span><span class="en">📖 Related Guides</span></h3>
+          <ul>
+            <li><a href="guide.html"><span class="zh">如何拔起大师之剑</span><span class="en">How to Pull the Master Sword</span></a></li>
+            <li><a href="guide-shrines.html"><span class="zh">120 座神庙速通路线</span><span class="en">120 Shrines Speedrun Route</span></a></li>
+            <li><a href="guide-korok.html"><span class="zh">900 个呀哈哈位置总览</span><span class="en">900 Korok Seeds Locations</span></a></li>
+            <li><a href="guide-divine-beast.html"><span class="zh">四神兽讨伐顺序建议</span><span class="en">Divine Beast Order Guide</span></a></li>
+            <li><a href="resources.html"><span class="zh">高清全要素地图 PDF</span><span class="en">HD Full-Map PDF</span></a></li>
+          </ul>
+        </div>
+
+        <div class="sponsor-box">
+          <h3><span class="zh">支持本站</span><span class="en">Support This Site</span></h3>
+          <p><span class="zh">觉得有用？请我喝杯咖啡 ☕</span><span class="en">Found this useful? Buy me a coffee ☕</span></p>
+          <!-- 收款码图片：微信 -->
+          <img class="qr" src="images/qr-wechat.jpg" alt="微信收款码">
+          <!-- 赞助按钮：Buy Me a Coffee -->
+          <a href="#" class="btn btn-coffee">☕ Buy Me a Coffee</a>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- ===== 页脚 ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-cols">
+        <div>
+          <h4><span class="zh">海拉尔攻略站</span><span class="en">Hyrule Guides</span></h4>
+          <p><span class="zh">由塞尔达爱好者维护的非官方攻略站，内容仅供学习交流。</span><span class="en">An unofficial fan site maintained by Zelda lovers, for learning and discussion.</span></p>
+        </div>
+        <div>
+          <h4><span class="zh">快速导航</span><span class="en">Quick Links</span></h4>
+          <ul>
+            <li><a href="index.html"><span class="zh">首页</span><span class="en">Home</span></a></li>
+            <li><a href="guide-cooking.html"><span class="zh">攻略</span><span class="en">Guides</span></a></li>
+            <li><a href="resources.html"><span class="zh">资源</span><span class="en">Resources</span></a></li>
+            <li><a href="about.html"><span class="zh">关于</span><span class="en">About</span></a></li>
+            <li><a href="contact.html"><span class="zh">联系</span><span class="en">Contact</span></a></li>
+          </ul>
+        </div>
+        <div>
+          <h4><span class="zh">法律</span><span class="en">Legal</span></h4>
+          <ul>
+            <li><a href="privacy.html"><span class="zh">隐私政策</span><span class="en">Privacy Policy</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year">2026</span> <span class="zh">海拉尔攻略站 (Hyrule Guides). 本站与任天堂公司无任何隶属关系。</span><span class="en">Hyrule Guides. This site is not affiliated with Nintendo Co., Ltd.</span></p>
+        <p class="ad-disclosure"><span class="zh">广告披露：本网站使用 Google AdSense 展示广告，广告内容由第三方提供。</span><span class="en">Ad disclosure: This website displays ads served by Google AdSense; ad content is provided by third parties.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

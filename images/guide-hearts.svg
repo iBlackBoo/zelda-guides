@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 200" role="img" aria-label="拔剑需要 13 颗红心（心之容器），临时黄心不计入">
+  <defs>
+    <linearGradient id="hbgrd" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7f3e6"/>
+      <stop offset="1" stop-color="#ece0bd"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="200" fill="url(#hbgrd)"/>
+  <rect x="8" y="8" width="744" height="184" rx="12" fill="none" stroke="#cbaa5a" stroke-width="3"/>
+
+  <!-- 标题 -->
+  <text x="30" y="46" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="18" font-weight="700" fill="#2d5a27">必要条件：13 颗红心（心之容器）</text>
+  <text x="30" y="66" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#7a6a3a">Requirement: 13 red hearts (Heart Containers). 临时黄心不计入。</text>
+
+  <!-- 13 颗红心 -->
+  <g>
+    <path transform="translate(60,110) scale(0.8)"  d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b" stroke="#cbaa5a" stroke-width="3"/>
+    <path transform="translate(112,110) scale(0.8)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b" stroke="#cbaa5a" stroke-width="3"/>
+    <path transform="translate(164,110) scale(0.8)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b" stroke="#cbaa5a" stroke-width="3"/>
+    <path transform="translate(216,110) scale(0.8)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b"/>
+    <path transform="translate(268,110) scale(0.8)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b"/>
+    <path transform="translate(320,110) scale(0.8)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b"/>
+    <path transform="translate(372,110) scale(0.8)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b"/>
+    <path transform="translate(424,110) scale(0.8)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b"/>
+    <path transform="translate(476,110) scale(0.8)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b"/>
+    <path transform="translate(528,110) scale(0.8)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b"/>
+    <path transform="translate(580,110) scale(0.8)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b"/>
+    <path transform="translate(632,110) scale(0.8)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b"/>
+    <path transform="translate(684,110) scale(0.8)" d="M0 8 C0 1 -8 -4 -14 -1 C-22 3 -18 16 -13 21 C-8 26 0 30 0 30 C0 30 8 26 13 21 C18 16 22 3 14 -1 C8 -4 0 1 0 8 Z" fill="#d24b4b"/>
+  </g>
+
+  <!-- 标注 -->
+  <g font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#7a6a3a">
+    <text x="44" y="150">初始 3 颗（金色描边）</text>
+    <text x="250" y="150">＋ 10 颗（神庙精灵祝福兑换）</text>
+  </g>
+  <text x="600" y="150" font-family="sans-serif" font-size="26" font-weight="800" fill="#2d5a27">13</text>
+
+  <!-- 下方说明条 -->
+  <text x="30" y="180" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#8a2a1a">⚠ 通过食物/药剂获得的临时黄色心不计入 13 颗红心门槛。</text>
+</svg>

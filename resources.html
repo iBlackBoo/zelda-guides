@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-zh="资源下载 | 海拉尔攻略站" data-en="Resources | Hyrule Guides">资源下载 | 海拉尔攻略站</title>
+  <meta name="description" data-zh="海拉尔攻略站资源页：高清全要素地图 PDF（神庙/呀哈哈/神兽标注）与免费料理食谱速查表下载。" data-en="Hyrule Guides resources: HD full-map PDF (shrines/Korok/Divine Beasts) and a free cooking cheat sheet download.">
+  <!-- Google AdSense 脚本，审核后粘贴在此 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== 头部导航 ===== -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <svg class="triforce" viewBox="0 0 24 22" aria-hidden="true">
+          <polygon points="12,2 4,14 20,14" fill="#cbaa5a"/>
+          <polygon points="2,14 9,14 5.5,22" fill="#cbaa5a"/>
+          <polygon points="22,14 15,14 18.5,22" fill="#cbaa5a"/>
+        </svg>
+        海拉尔攻略站
+        <span class="sub">Hyrule Guides</span>
+      </a>
+      <button class="lang-toggle" id="langToggle" aria-label="切换语言">EN</button>
+      <button class="nav-toggle" aria-label="展开菜单" onclick="document.querySelector('.main-nav').classList.toggle('open')"><span class="zh">☰ 菜单</span><span class="en">☰ Menu</span></button>
+      <nav class="main-nav" aria-label="主导航">
+        <ul>
+          <li><a href="index.html"><span class="zh">首页</span><span class="en">Home</span></a></li>
+          <li><a href="guide.html"><span class="zh">攻略</span><span class="en">Guides</span></a></li>
+          <li><a href="resources.html" class="active"><span class="zh">资源</span><span class="en">Resources</span></a></li>
+          <li><a href="about.html"><span class="zh">关于</span><span class="en">About</span></a></li>
+          <li><a href="contact.html"><span class="zh">联系</span><span class="en">Contact</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <nav class="breadcrumb" aria-label="面包屑">
+      <a href="index.html"><span class="zh">首页</span><span class="en">Home</span></a> › <span class="zh">资源</span><span class="en">Resources</span>
+    </nav>
+
+    <h2 class="section-title"><span class="zh">资源下载</span><span class="en">Resources</span></h2>
+    <p class="section-sub"><span class="zh">精选数字商品与免费资料，帮助你更高效地探索海拉尔。</span><span class="en">Curated digital goods and freebies to help you explore Hyrule more efficiently.</span></p>
+
+    <div class="layout">
+      <!-- ===== 主内容 ===== -->
+      <div>
+        <!-- 数字商品 -->
+        <div class="product">
+          <img src="images/map-hyrule-full.svg" alt="海拉尔全要素高清地图 PDF 封面" loading="lazy">
+          <div>
+            <h3 style="font-size:1.3rem;margin-bottom:4px;"><span class="zh">海拉尔全要素高清地图 PDF</span><span class="en">Hyrule Full-Map HD PDF</span></h3>
+            <p style="color:var(--ink-soft);"><span class="zh">一张图标注全部神庙、呀哈哈、四神兽、商人位置与传送点。A1 超清分辨率，可打印或平板查看。</span><span class="en">One map marking all shrines, Korok seeds, Divine Beasts, merchants and fast-travel points. A1 ultra-HD, printable or viewable on a tablet.</span></p>
+            <div class="price">¥9.9 <small><span class="zh">（一次性买断，永久更新）</span><span class="en">(one-time purchase, lifetime updates)</span></small></div>
+            <!-- 数字商品购买按钮：Gumroad -->
+            <a href="#" class="btn btn-primary"><span class="zh">立即购买 ↗</span><span class="en">Buy Now ↗</span></a>
+            <p style="font-size:.82rem;color:var(--ink-soft);margin-top:8px;"><span class="zh">购买将跳转至安全支付页面（Gumroad）。</span><span class="en">You'll be redirected to a secure checkout (Gumroad).</span></p>
+          </div>
+        </div>
+
+        <!-- 免费资源 -->
+        <div class="widget" style="margin-top:8px;">
+          <h3><span class="zh">🆓 免费资源</span><span class="en">🆓 Free Resources</span></h3>
+          <ul class="free-list">
+            <li>
+              <a href="images/free-cooking.svg" target="_blank" rel="noopener"><span class="zh">料理食谱速查表（图片）</span><span class="en">Cooking Cheat Sheet (image)</span></a>
+              <span class="zh">—— 常用心心恢复、攻防加成、耐寒抗热组合一览。</span><span class="en">— common heart-recovery, attack/defense buffs, and heat/cold resistance combos.</span>
+            </li>
+            <li>
+              <a href="images/free-shrine.svg" target="_blank" rel="noopener"><span class="zh">神庙打卡清单（图片）</span><span class="en">Shrine Checklist (image)</span></a>
+              <span class="zh">—— 可打印的 120 座神庙勾选表，防止遗漏。</span><span class="en">— a printable 120-shrine checklist so you miss nothing.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ===== 侧边栏赞助位 ===== -->
+      <aside class="sidebar">
+        <div class="sponsor-box">
+          <h3><span class="zh">支持本站</span><span class="en">Support This Site</span></h3>
+          <p><span class="zh">觉得资源有用？请我喝杯咖啡 ☕</span><span class="en">Found these useful? Buy me a coffee ☕</span></p>
+          <!-- 收款码图片：微信 -->
+          <img class="qr" src="images/qr-wechat.jpg" alt="微信收款码">
+          <!-- 赞助按钮：Buy Me a Coffee -->
+          <a href="#" class="btn btn-coffee">☕ Buy Me a Coffee</a>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- ===== 页脚 ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-cols">
+        <div>
+          <h4><span class="zh">海拉尔攻略站</span><span class="en">Hyrule Guides</span></h4>
+          <p><span class="zh">由塞尔达爱好者维护的非官方攻略站，内容仅供学习交流。</span><span class="en">An unofficial fan site maintained by Zelda lovers, for learning and discussion.</span></p>
+        </div>
+        <div>
+          <h4><span class="zh">快速导航</span><span class="en">Quick Links</span></h4>
+          <ul>
+            <li><a href="index.html"><span class="zh">首页</span><span class="en">Home</span></a></li>
+            <li><a href="guide.html"><span class="zh">攻略</span><span class="en">Guides</span></a></li>
+            <li><a href="resources.html"><span class="zh">资源</span><span class="en">Resources</span></a></li>
+            <li><a href="about.html"><span class="zh">关于</span><span class="en">About</span></a></li>
+            <li><a href="contact.html"><span class="zh">联系</span><span class="en">Contact</span></a></li>
+          </ul>
+        </div>
+        <div>
+          <h4><span class="zh">法律</span><span class="en">Legal</span></h4>
+          <ul>
+            <li><a href="privacy.html"><span class="zh">隐私政策</span><span class="en">Privacy Policy</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year">2026</span> <span class="zh">海拉尔攻略站 (Hyrule Guides). 本站与任天堂公司无任何隶属关系。</span><span class="en">Hyrule Guides. This site is not affiliated with Nintendo Co., Ltd.</span></p>
+        <p class="ad-disclosure"><span class="zh">广告披露：本网站使用 Google AdSense 展示广告，广告内容由第三方提供。</span><span class="en">Ad disclosure: This website displays ads served by Google AdSense; ad content is provided by third parties.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

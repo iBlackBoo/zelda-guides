@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="四神兽与海拉尔城堡位置地图">
+  <defs>
+    <style>
+      .bg{fill:#f7f3e6}
+      .sea{fill:#cfe3ea}
+      .land{fill:#e8e0c8;stroke:#2d5a27;stroke-width:1.5}
+      .title{fill:#2d5a27;font-family:'Noto Sans SC',system-ui,sans-serif;font-size:20px;font-weight:700}
+      .lab{fill:#3a3a32;font-family:'Noto Sans SC',system-ui,sans-serif;font-size:13px}
+      .tag{fill:#2d5a27;font-family:'Noto Sans SC',system-ui,sans-serif;font-size:12px;font-weight:700}
+      .castle{fill:#7a5a2a}
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="800" height="360"/>
+  <rect class="sea" x="0" y="0" width="800" height="360" opacity="0.5"/>
+  <path class="land" d="M150,70 Q330,45 520,65 Q690,85 680,200 Q690,320 480,310 Q260,340 165,280 Q90,210 150,70 Z"/>
+
+  <!-- 海拉尔城堡(加侬) 中部 -->
+  <g transform="translate(400,180)">
+    <polygon class="castle" points="0,-18 14,-4 14,12 -14,12 -14,-4"/>
+    <polygon class="castle" points="-8,-18 0,-30 8,-18"/>
+    <text class="lab" x="-30" y="34">海拉尔城堡 (加侬)</text>
+  </g>
+
+  <!-- 四神兽 -->
+  <!-- 水 Ruta 东 卓拉 -->
+  <g transform="translate(560,150)">
+    <circle r="18" fill="#2998c9"/>
+    <path d="M0,-9 q9,9 0,18 q-9,-9 0,-18 Z" fill="#fff" opacity="0.85"/>
+    <text class="tag" x="-10" y="36">水·瓦鲁达尼亚</text>
+    <text class="lab" x="-10" y="52">卓拉领地(东)</text>
+  </g>
+  <!-- 风 Medoh 西北 海布拉 -->
+  <g transform="translate(235,95)">
+    <circle r="18" fill="#7fb3d5"/>
+    <path d="M0,-10 L12,8 L-12,8 Z" fill="#fff" opacity="0.85"/>
+    <text class="tag" x="-10" y="36">风·瓦梅德</text>
+    <text class="lab" x="-10" y="52">海布拉(西北)</text>
+  </g>
+  <!-- 火 Rudania 中部偏东 死亡山脉 -->
+  <g transform="translate(500,230)">
+    <circle r="18" fill="#d35400"/>
+    <path d="M0,-10 q6,8 0,14 q-6,-6 0,-14 Z" fill="#fff" opacity="0.85"/>
+    <text class="tag" x="-10" y="36">火·瓦鲁凡</text>
+    <text class="lab" x="-10" y="52">死亡山脉(中东)</text>
+  </g>
+  <!-- 雷 Naboris 西南 格鲁德 -->
+  <g transform="translate(250,260)">
+    <circle r="18" fill="#8e44ad"/>
+    <path d="M0,-10 l5,6 l-5,2 l5,8 l-10,-10 l5,-2 l-5,-4 Z" fill="#fff" opacity="0.9"/>
+    <text class="tag" x="-10" y="36">雷·瓦纳波力斯</text>
+    <text class="lab" x="-10" y="52">格鲁德(西南)</text>
+  </g>
+
+  <text class="title" x="20" y="34">四神兽环绕城堡：建议先打水神兽</text>
+  <text class="lab" x="20" y="345" fill="#c0392b">每击败一只削弱加侬 1/4 血量并获英杰能力</text>
+</svg>

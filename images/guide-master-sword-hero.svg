@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="大师之剑插在科洛格森林石台上">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16331a"/>
+      <stop offset="0.5" stop-color="#2d5a27"/>
+      <stop offset="1" stop-color="#d8b25e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.55">
+      <stop offset="0" stop-color="#aef0ff" stop-opacity="0.9"/>
+      <stop offset="0.6" stop-color="#7fd4ff" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#7fd4ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="blade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4fcff"/>
+      <stop offset="1" stop-color="#b9e3f3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="360" fill="url(#sky)"/>
+
+  <!-- 背景大树（科洛格森林） -->
+  <g fill="#11300f" opacity="0.85">
+    <path d="M60 300 C40 220 70 180 90 150 C70 200 110 230 120 300 Z"/>
+    <path d="M150 300 C135 210 165 170 185 140 C160 195 200 225 210 300 Z"/>
+    <path d="M620 300 C600 210 635 170 660 140 C630 195 675 225 690 300 Z"/>
+    <path d="M710 300 C695 225 720 185 740 158 C715 205 760 235 770 300 Z"/>
+  </g>
+
+  <!-- 剑身光晕 -->
+  <ellipse cx="400" cy="190" rx="220" ry="200" fill="url(#glow)"/>
+
+  <!-- 地面 -->
+  <rect y="300" width="800" height="60" fill="#10280c"/>
+  <ellipse cx="400" cy="300" rx="120" ry="20" fill="#1c3d12"/>
+
+  <!-- 石台 -->
+  <g>
+    <rect x="362" y="232" width="76" height="70" rx="6" fill="#6b5a3c"/>
+    <rect x="356" y="222" width="88" height="16" rx="4" fill="#86714a"/>
+    <rect x="370" y="210" width="60" height="16" rx="3" fill="#9a804f"/>
+    <rect x="384" y="196" width="32" height="18" rx="3" fill="#b89a63"/>
+  </g>
+
+  <!-- 大师之剑 -->
+  <g>
+    <rect x="394" y="70" width="12" height="130" rx="3" fill="url(#blade)" stroke="#8fc7da" stroke-width="1"/>
+    <polygon points="400,52 390,72 410,72" fill="#eaf7ff"/>
+    <rect x="386" y="196" width="28" height="10" rx="3" fill="#c8a24a"/>
+    <rect x="396" y="204" width="8" height="14" fill="#8a6f3c"/>
+    <circle cx="400" cy="221" r="5" fill="#c8a24a"/>
+  </g>
+
+  <!-- 漂浮光点 -->
+  <g fill="#dff4ff" opacity="0.85">
+    <circle cx="300" cy="120" r="2.5"/>
+    <circle cx="500" cy="100" r="2"/>
+    <circle cx="340" cy="170" r="1.8"/>
+    <circle cx="470" cy="150" r="1.8"/>
+    <circle cx="430" cy="110" r="1.6"/>
+  </g>
+
+  <!-- 标题 -->
+  <text x="400" y="338" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#f7f3e6" font-weight="700">大师之剑 · Master Sword</text>
+  <text x="400" y="354" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#e9dcb8">科洛格森林 · Korok Forest</text>
+</svg>

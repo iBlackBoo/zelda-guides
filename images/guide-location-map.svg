@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" role="img" aria-label="海拉尔地图：大师之剑位于科洛格森林（迷雾森林深处）">
+  <defs>
+    <linearGradient id="land" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ece0bd"/>
+      <stop offset="1" stop-color="#d6c496"/>
+    </linearGradient>
+    <radialGradient id="sea" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0" stop-color="#cfe3ec"/>
+      <stop offset="1" stop-color="#a6cad6"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="760" height="440" fill="url(#sea)"/>
+  <!-- 陆地 -->
+  <path d="M120 90 C220 48 430 52 565 88 C688 122 705 220 652 300 C612 372 470 396 330 386 C182 376 90 320 80 230 C72 160 68 122 120 90 Z"
+        fill="url(#land)" stroke="#b29a64" stroke-width="2"/>
+
+  <!-- 大路径：迷雾森林入口 → 科洛格森林 -->
+  <path d="M480 205 C440 190 410 175 388 158" fill="none" stroke="#c0392b" stroke-width="3" stroke-dasharray="7 6" stroke-linecap="round"/>
+  <polygon points="388,158 402,164 396,176" fill="#c0392b"/>
+
+  <!-- 区域标注 -->
+  <g font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#5b4a25">
+    <circle cx="165" cy="140" r="4" fill="#7a8a4a"/><text x="150" y="125">海布拉·Hebra</text>
+    <circle cx="590" cy="165" r="5" fill="#b5482e"/><text x="600" y="160">死亡山脉·Death Mtn</text>
+    <circle cx="610" cy="255" r="4" fill="#3a78b5"/><text x="600" y="278">卓拉领地·Zora</text>
+    <circle cx="175" cy="320" r="4" fill="#caa23a"/><text x="120" y="340">格鲁德·Gerudo</text>
+    <circle cx="430" cy="300" r="4" fill="#6b8e3a"/><text x="430" y="320">卡卡利科·Kakariko</text>
+    <circle cx="350" cy="360" r="4" fill="#3a78b5"/><text x="300" y="392">海拉鲁湖·Lake Hylia</text>
+    <circle cx="480" cy="205" r="4" fill="#2d5a27"/><text x="492" y="200">迷雾森林入口</text>
+    <text x="478" y="218" font-size="10" fill="#6b5a30">Lost Woods Entrance</text>
+  </g>
+
+  <!-- 科洛格森林 / 大师之剑 标记 -->
+  <g>
+    <circle cx="370" cy="150" r="16" fill="#2d5a27" stroke="#cbaa5a" stroke-width="3"/>
+    <text x="370" y="156" text-anchor="middle" font-size="16" fill="#cbaa5a" font-weight="700">⚔</text>
+    <text x="370" y="120" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" font-weight="700" fill="#7a1f12">大师之剑</text>
+    <text x="370" y="182" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#5b4a25">科洛格森林 Korok Forest</text>
+  </g>
+
+  <!-- 指南针 -->
+  <g transform="translate(700,70)">
+    <circle r="22" fill="#f7f3e6" stroke="#b29a64" stroke-width="2"/>
+    <polygon points="0,-16 6,4 0,-2 -6,4" fill="#c0392b"/>
+    <text x="0" y="-26" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#5b4a25">N</text>
+  </g>
+
+  <!-- 图例 -->
+  <g transform="translate(40,360)" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#5b4a25">
+    <rect x="0" y="0" width="210" height="58" rx="6" fill="#f7f3e6" stroke="#b29a64"/>
+    <circle cx="16" cy="18" r="6" fill="#2d5a27" stroke="#cbaa5a" stroke-width="2"/>
+    <text x="30" y="22">大师之剑位置（科洛格森林）</text>
+    <line x1="6" y1="40" x2="26" y2="40" stroke="#c0392b" stroke-width="3" stroke-dasharray="6 5"/>
+    <text x="34" y="44">推荐路线（迷雾森林入口→森林）</text>
+  </g>
+</svg>

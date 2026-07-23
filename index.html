@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-zh="海拉尔攻略站 | 塞尔达传说全方位图文攻略" data-en="Hyrule Guides | In-Depth Zelda Walkthroughs">海拉尔攻略站 | 塞尔达传说全方位图文攻略</title>
+  <meta name="description" data-zh="海拉尔攻略站（Hyrule Guides）提供《塞尔达传说：旷野之息》《王国之泪》等作品的详尽图文攻略、装备推荐与高清地图资源下载。" data-en="Hyrule Guides offers detailed Breath of the Wild & Tears of the Kingdom walkthroughs, gear recommendations and HD map downloads.">
+  <!-- Google AdSense 脚本，审核后粘贴在此 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== 头部导航 ===== -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <svg class="triforce" viewBox="0 0 24 22" aria-hidden="true">
+          <polygon points="12,2 4,14 20,14" fill="#cbaa5a"/>
+          <polygon points="2,14 9,14 5.5,22" fill="#cbaa5a"/>
+          <polygon points="22,14 15,14 18.5,22" fill="#cbaa5a"/>
+        </svg>
+        海拉尔攻略站
+        <span class="sub">Hyrule Guides</span>
+      </a>
+      <button class="lang-toggle" id="langToggle" aria-label="切换语言">EN</button>
+      <button class="nav-toggle" aria-label="展开菜单" onclick="document.querySelector('.main-nav').classList.toggle('open')"><span class="zh">☰ 菜单</span><span class="en">☰ Menu</span></button>
+      <nav class="main-nav" aria-label="主导航">
+        <ul>
+          <li><a href="index.html" class="active"><span class="zh">首页</span><span class="en">Home</span></a></li>
+          <li><a href="guide.html"><span class="zh">攻略</span><span class="en">Guides</span></a></li>
+          <li><a href="resources.html"><span class="zh">资源</span><span class="en">Resources</span></a></li>
+          <li><a href="about.html"><span class="zh">关于</span><span class="en">About</span></a></li>
+          <li><a href="contact.html"><span class="zh">联系</span><span class="en">Contact</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== 英雄区 ===== -->
+  <section class="hero">
+    <h1><span class="zh">海拉尔攻略站</span><span class="en">Hyrule Guides</span></h1>
+    <p class="lead"><span class="zh">从拔剑到救公主，从烹饪到开图——这里汇集《塞尔达传说》系列的详尽图文攻略、装备推荐与高清地图资源，助你畅游海拉尔大陆。</span><span class="en">From pulling the Master Sword to saving the princess — from cooking to unlocking the map. Find in-depth Zelda walkthroughs, gear picks and HD maps of Hyrule here.</span></p>
+    <div class="hero-cta">
+      <a href="guide.html" class="btn btn-primary"><span class="zh">开始阅读攻略</span><span class="en">Start Reading</span></a>
+      <a href="resources.html" class="btn btn-outline"><span class="zh">下载高清地图</span><span class="en">Download Map</span></a>
+    </div>
+  </section>
+
+  <main>
+    <!-- ===== 攻略首页顶部广告位 ===== -->
+    <!-- 广告位：攻略首页顶部 -->
+    <div class="container">
+      <div class="ad-container" aria-label="广告位">
+        <span>
+          <span class="ad-label"><span class="zh">AdSense 广告位 · 顶部通栏</span><span class="en">AdSense Ad · Top Banner</span></span>
+          <span class="ad-note"><span class="zh">审核通过后在此粘贴广告单元代码</span><span class="en">Paste ad unit code here after approval</span></span>
+        </span>
+      </div>
+    </div>
+
+    <!-- ===== 最新攻略列表 ===== -->
+    <section class="section" id="guides">
+      <div class="container">
+        <h2 class="section-title"><span class="zh">最新攻略</span><span class="en">Latest Guides</span></h2>
+        <p class="section-sub"><span class="zh">精选海拉尔大陆探索指南，点击任意卡片深入阅读。</span><span class="en">Hand-picked exploration guides for Hyrule — tap any card to read more.</span></p>
+        <div class="grid grid-cards">
+
+          <article class="card">
+            <img src="images/thumb-master-sword.svg" alt="大师之剑攻略缩略图" loading="lazy">
+            <div class="card-body">
+              <span class="card-tag"><span class="zh">旷野之息</span><span class="en">Breath of the Wild</span></span>
+              <h3><a href="guide.html"><span class="zh">如何拔起大师之剑</span><span class="en">How to Pull the Master Sword</span></a></h3>
+              <p><span class="zh">集齐 13 颗红心、找到迷雾森林深处的力量试炼，完整步骤带你拔出任天堂的传奇之剑。</span><span class="en">Gather 13 hearts and find the Trial of Power deep in the Lost Woods — a step-by-step path to Nintendo's legendary blade.</span></p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/thumb-shrine.svg" alt="神庙解谜攻略缩略图" loading="lazy">
+            <div class="card-body">
+              <span class="card-tag"><span class="zh">神庙解谜</span><span class="en">Shrine Puzzles</span></span>
+              <h3><a href="guide-shrines.html"><span class="zh">120 座神庙速通路线</span><span class="en">120 Shrines Speedrun Route</span></a></h3>
+              <p><span class="zh">按区域整理全部神庙位置与核心解法思路，规划最高效的打卡顺序。</span><span class="en">All shrine locations and core solutions by region, so you can plan the most efficient route.</span></p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/thumb-cooking.svg" alt="料理烹饪攻略缩略图" loading="lazy">
+            <div class="card-body">
+              <span class="card-tag"><span class="zh">生存技巧</span><span class="en">Survival</span></span>
+              <h3><a href="guide-cooking.html"><span class="zh">料理系统完全手册</span><span class="en">Complete Cooking Guide</span></a></h3>
+              <p><span class="zh">心心回血、攻击加成、耐寒抗热，掌握食材组合公式，告别临时抱佛脚。</span><span class="en">Heart recovery, attack buffs, heat and cold resistance — master the ingredient formulas and stop improvising.</span></p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/thumb-korok.svg" alt="呀哈哈收集攻略缩略图" loading="lazy">
+            <div class="card-body">
+              <span class="card-tag"><span class="zh">收集向</span><span class="en">Collectibles</span></span>
+              <h3><a href="guide-korok.html"><span class="zh">900 个呀哈哈位置总览</span><span class="en">900 Korok Seeds Locations</span></a></h3>
+              <p><span class="zh">森林、山顶、水底的隐藏种子，附常见谜题类型与识别技巧。</span><span class="en">Hidden seeds in forests, peaks and lakebeds, with common puzzle types and how to spot them.</span></p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/thumb-divine-beast.svg" alt="神兽攻略缩略图" loading="lazy">
+            <div class="card-body">
+              <span class="card-tag"><span class="zh">主线 Boss</span><span class="en">Main Boss</span></span>
+              <h3><a href="guide-divine-beast.html"><span class="zh">四神兽讨伐顺序建议</span><span class="en">Divine Beast Order Guide</span></a></h3>
+              <p><span class="zh">从属性克制到内部机关，推荐先打哪只神兽最省力。</span><span class="en">From elemental counters to inner mechanisms — which Divine Beast to tackle first for the easiest run.</span></p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 列表下方横幅广告位 ===== -->
+    <!-- AdSense 广告位 1 -->
+    <div class="container">
+      <div class="ad-container" aria-label="广告位">
+        <span>
+          <span class="ad-label"><span class="zh">AdSense 广告位 1 · 攻略列表下方</span><span class="en">AdSense Ad 1 · Below Guide List</span></span>
+          <span class="ad-note"><span class="zh">审核通过后在此粘贴广告单元代码</span><span class="en">Paste ad unit code here after approval</span></span>
+        </span>
+      </div>
+    </div>
+
+    <!-- ===== 推荐装备（联盟营销） ===== -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title"><span class="zh">装备推荐</span><span class="en">Recommended Gear</span></h2>
+        <p class="section-sub"><span class="zh">玩得更舒服的周边好物（联盟链接，支持本站可持续更新）。</span><span class="en">Comfier gear we genuinely recommend (affiliate links that help keep this site updated).</span></p>
+        <div class="grid gear-grid">
+
+          <!-- 联盟链接：Switch Pro 手柄 -->
+          <div class="gear">
+            <img src="https://placehold.co/400x300/efe8d4/2d5a27?text=Pro+Controller" alt="Switch Pro 手柄" loading="lazy">
+            <h3><span class="zh">Switch Pro 手柄</span><span class="en">Switch Pro Controller</span></h3>
+            <p><span class="zh">长时间探索海拉尔也不累手，摇杆更精准。</span><span class="en">Explore Hyrule for hours without hand fatigue, with more precise sticks.</span></p>
+            <a href="#" class="btn btn-outline"><span class="zh">查看推荐 ↗</span><span class="en">View Pick ↗</span></a>
+          </div>
+
+          <!-- 联盟链接：amiibo 卡 -->
+          <div class="gear">
+            <img src="https://placehold.co/400x300/efe8d4/2d5a27?text=amiibo" alt="amiibo 卡" loading="lazy">
+            <h3><span class="zh">塞尔达 amiibo 卡</span><span class="en">Zelda amiibo Cards</span></h3>
+            <p><span class="zh">召唤稀有装备与材料，开局更轻松。</span><span class="en">Summon rare gear and materials to make your early game easier.</span></p>
+            <a href="#" class="btn btn-outline"><span class="zh">查看推荐 ↗</span><span class="en">View Pick ↗</span></a>
+          </div>
+
+          <!-- 联盟链接：攻略书 -->
+          <div class="gear">
+            <img src="https://placehold.co/400x300/efe8d4/2d5a27?text=Guide+Book" alt="官方攻略书" loading="lazy">
+            <h3><span class="zh">官方精装攻略书</span><span class="en">Official Guide Book</span></h3>
+            <p><span class="zh">纸质地图与全收集索引，收藏党必备。</span><span class="en">Paper maps and a full collectibles index — a must for collectors.</span></p>
+            <a href="#" class="btn btn-outline"><span class="zh">查看推荐 ↗</span><span class="en">View Pick ↗</span></a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 资源下载入口 ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-banner">
+          <h2><span class="zh">高清全要素地图 PDF 下载</span><span class="en">HD Full-Map PDF Download</span></h2>
+          <p><span class="zh">标注神庙、呀哈哈、神兽与商人位置的超清地图，探索不迷路。</span><span class="en">An ultra-clear map marking shrines, Korok seeds, Divine Beasts and merchants — never get lost.</span></p>
+          <a href="resources.html" class="btn btn-primary"><span class="zh">前往资源页</span><span class="en">Go to Resources</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 赞助打赏区域 ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="sponsor-box">
+          <h3><span class="zh">觉得攻略有用？</span><span class="en">Found the guides helpful?</span></h3>
+          <p><span class="zh">请我喝杯咖啡 ☕，本站将持续免费更新更多攻略。</span><span class="en">Buy me a coffee ☕ and we'll keep publishing free guides.</span></p>
+          <!-- 收款码图片：微信 -->
+          <img class="qr" src="images/qr-wechat.jpg" alt="微信收款码">
+          <!-- 赞助按钮：Buy Me a Coffee -->
+          <div>
+            <a href="#" class="btn btn-coffee">☕ Buy Me a Coffee</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== 页脚 ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-cols">
+        <div>
+          <h4><span class="zh">海拉尔攻略站</span><span class="en">Hyrule Guides</span></h4>
+          <p><span class="zh">由塞尔达爱好者维护的非官方攻略站，内容仅供学习交流。</span><span class="en">An unofficial fan site maintained by Zelda lovers, for learning and discussion.</span></p>
+        </div>
+        <div>
+          <h4><span class="zh">快速导航</span><span class="en">Quick Links</span></h4>
+          <ul>
+            <li><a href="index.html"><span class="zh">首页</span><span class="en">Home</span></a></li>
+            <li><a href="guide.html"><span class="zh">攻略</span><span class="en">Guides</span></a></li>
+            <li><a href="resources.html"><span class="zh">资源</span><span class="en">Resources</span></a></li>
+            <li><a href="about.html"><span class="zh">关于</span><span class="en">About</span></a></li>
+            <li><a href="contact.html"><span class="zh">联系</span><span class="en">Contact</span></a></li>
+          </ul>
+        </div>
+        <div>
+          <h4><span class="zh">法律</span><span class="en">Legal</span></h4>
+          <ul>
+            <li><a href="privacy.html"><span class="zh">隐私政策</span><span class="en">Privacy Policy</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year">2026</span> <span class="zh">海拉尔攻略站 (Hyrule Guides). 本站与任天堂公司无任何隶属关系。</span><span class="en">Hyrule Guides. This site is not affiliated with Nintendo Co., Ltd.</span></p>
+        <p class="ad-disclosure"><span class="zh">广告披露：本网站使用 Google AdSense 展示广告，广告内容由第三方提供。</span><span class="en">Ad disclosure: This website displays ads served by Google AdSense; ad content is provided by third parties.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="料理效果与食材组合示意">
+  <defs>
+    <style>
+      .bg{fill:#f7f3e6}
+      .title{fill:#2d5a27;font-family:'Noto Sans SC',system-ui,sans-serif;font-size:20px;font-weight:700}
+      .lab{fill:#3a3a32;font-family:'Noto Sans SC',system-ui,sans-serif;font-size:13px}
+      .tag{fill:#2d5a27;font-family:'Noto Sans SC',system-ui,sans-serif;font-size:12px;font-weight:700}
+      .pot{fill:#5a5550;stroke:#2d5a27;stroke-width:3}
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="800" height="360"/>
+
+  <!-- 烹饪锅 -->
+  <g transform="translate(400,180)">
+    <ellipse class="pot" cx="0" cy="0" rx="70" ry="34"/>
+    <path d="M-70,0 Q0,80 70,0" class="pot" fill="#6e6862"/>
+    <ellipse cx="0" cy="0" rx="58" ry="26" fill="#caa86b"/>
+    <!-- 蒸汽 -->
+    <path d="M-20,-30 q10,-14 0,-28 q-10,-14 0,-28" stroke="#9a9a8a" stroke-width="3" fill="none" opacity="0.7"/>
+    <path d="M20,-30 q10,-14 0,-28 q-10,-14 0,-28" stroke="#9a9a8a" stroke-width="3" fill="none" opacity="0.7"/>
+    <text class="lab" x="-26" y="64">烹饪锅（最多 5 种食材）</text>
+  </g>
+
+  <!-- 效果徽章：环绕 -->
+  <g font-family="'Noto Sans SC',system-ui,sans-serif">
+    <!-- 回血 -->
+    <g transform="translate(120,90)">
+      <circle r="34" fill="#efe8d4" stroke="#c0392b" stroke-width="2"/>
+      <path d="M0,-14 C10,-2 14,4 0,16 C-14,4 -10,-2 0,-14 Z" fill="#c0392b"/>
+      <text class="tag" x="-18" y="54">回血/心心</text>
+    </g>
+    <!-- 攻击 -->
+    <g transform="translate(210,250)">
+      <circle r="34" fill="#efe8d4" stroke="#b8381f" stroke-width="2"/>
+      <path d="M-12,-14 L4,-4 L-2,2 L14,16 L4,10 L12,14 L-4,-2 L2,-8 Z" fill="#b8381f"/>
+      <text class="tag" x="-18" y="54">攻击加成</text>
+    </g>
+    <!-- 防御 -->
+    <g transform="translate(590,250)">
+      <circle r="34" fill="#efe8d4" stroke="#2d5a27" stroke-width="2"/>
+      <path d="M0,-16 L13,-9 L13,6 Q13,16 0,20 Q-13,16 -13,6 L-13,-9 Z" fill="#2d5a27"/>
+      <text class="tag" x="-18" y="54">防御加成</text>
+    </g>
+    <!-- 耐寒 -->
+    <g transform="translate(680,90)">
+      <circle r="34" fill="#efe8d4" stroke="#2980b9" stroke-width="2"/>
+      <path d="M0,-15 L0,15 M-12,-8 L12,8 M12,-8 L-12,8" stroke="#2980b9" stroke-width="3"/>
+      <text class="tag" x="-18" y="54">耐寒/防暑</text>
+    </g>
+    <!-- 龙角(最长buff) -->
+    <g transform="translate(400,300)">
+      <circle r="34" fill="#fff7e0" stroke="#cbaa5a" stroke-width="3"/>
+      <path d="M0,-16 Q8,-6 4,4 Q10,10 0,16 Q-10,10 -4,4 Q-8,-6 0,-16 Z" fill="#cbaa5a"/>
+      <text class="tag" x="-44" y="-42">龙角 = 30 分钟最长 buff</text>
+    </g>
+  </g>
+
+  <text class="title" x="20" y="34">同类效果叠加取“最长时长”，混搭会做成失败料理</text>
+</svg>

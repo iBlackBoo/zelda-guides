@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" role="img" aria-label="攻略缩略图：四神兽讨伐顺序">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#356b2d"/>
+      <stop offset="1" stop-color="#1c3a18"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="270" fill="url(#bg5)"/>
+  <ellipse cx="240" cy="120" rx="120" ry="110" fill="#cbaa5a" opacity="0.12"/>
+  <!-- 神兽（飞兽剪影） -->
+  <g transform="translate(240,118)" fill="#cbaa5a">
+    <path d="M0 -36 C18 -40 40 -34 52 -16 C30 -20 16 -10 8 -2 C20 2 34 0 46 10 C26 8 12 14 6 24 C2 12 -2 12 -6 24 C-12 14 -26 8 -46 10 C-34 0 -20 2 -8 -2 C-16 -10 -30 -20 -52 -16 C-40 -34 -18 -40 0 -36 Z"/>
+    <ellipse cx="0" cy="-6" rx="14" ry="20"/>
+    <path d="M0 -26 C-6 -34 -2 -44 6 -48 C4 -40 6 -32 0 -26 Z"/>
+  </g>
+  <rect x="0" y="206" width="480" height="64" fill="#102318" opacity="0.85"/>
+  <text x="240" y="234" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="18" font-weight="700" fill="#f7f3e6">四神兽讨伐顺序</text>
+  <text x="240" y="256" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#cbb98a">Divine Beast Order Guide</text>
+</svg>
