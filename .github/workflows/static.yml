@@ -36,8 +36,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # zelda-guides/ 子目录作为站点根目录发布
-          path: zelda-guides
+          # 仓库根（即 zelda-guides/ 作为 git 仓库根）就是站点根，直接发布当前目录
+          path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
