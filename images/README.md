@@ -29,4 +29,4 @@
 
 ## 命名规范
 - 攻略/地图类：`guide-*.svg`、`map-*.svg`、`thumb-*.svg`
-- 用户素材：`og-cover.jpg`、`qr-wechat.png`、`qr-alipay.png`
+- 用户素材：`og-cover.jpg`、`qr-wechat.jpg`、`qr-alipay.jpg`（或 `.png`）
