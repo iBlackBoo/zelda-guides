@@ -80,9 +80,9 @@
     });
   }
 
-  // 5) 图片灯箱（点击放大：收款码 / 攻略图 / 资源图）
+  // 5) 图片灯箱（点击放大：攻略图 / 资源图）
   (function () {
-    var sel = '.sponsor-box .qr, .article img, .product img';
+    var sel = '.article img, .product img';
     var imgs = document.querySelectorAll(sel);
     if (!imgs.length) return;
 

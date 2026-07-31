@@ -54,10 +54,8 @@ npx serve .
 | `<!-- 广告位：攻略首页顶部 -->` | index.html 英雄区下方 |
 | `<!-- AdSense 广告位 1 -->` | index.html 攻略列表下方 |
 | `<!-- AdSense 广告位 2 -->` | guide.html 文章底部 |
-| `<!-- 联盟链接：Switch Pro 手柄 -->` | 多处 |
-| `<!-- 赞助按钮：Buy Me a Coffee -->` | 首页 / 攻略页 / 资源页侧边栏 |
-| `<!-- 收款码图片：微信/支付宝 -->` | 赞助区二维码占位 |
-| `<!-- 数字商品购买按钮：Gumroad -->` | resources.html 购买按钮 |
+| `<!-- 联盟链接：Switch Pro 手柄 -->` | 多处（推荐装备卡片） |
+| `<!-- 联系我们区域 -->` | 首页 / 攻略页 / 资源页侧边栏（邮箱 hello@hyrule-guides.cn） |
 
 ### 接入 AdSense 的步骤
 
